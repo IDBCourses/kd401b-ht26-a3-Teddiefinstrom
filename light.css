@@ -5,30 +5,6 @@
   --color-accent-hover: hsl(225, 59%, 40%);
   --color-surface: #e5e5e5;
   --color-on-primary: #ffffff;
+
 }
 
-body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-}
-
-li,
-a {
-  color: var(--color-accent);
-}
-
-a:hover {
-  color: var(--color-accent-hover);
-}
-
-button {
-  background-color: var(--color-accent);
-  color: var(--color-on-primary);
-  border: none;
-  padding: 1rem 1rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}

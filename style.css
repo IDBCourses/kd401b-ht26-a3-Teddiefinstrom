@@ -1,0 +1,67 @@
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--body-font-family);
+  font-weight: var(--body-weight);
+  font-size: var(--body-size);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+}
+
+h1 {
+  font-family: var(--h1-font-family);
+  font-weight: var(--h1-weight);
+  font-size: var(--h1-size);
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+}
+
+h2 {
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-weight);
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  letter-spacing: var(--h2-letter-spacing);
+}
+
+h3 {
+  font-family: var(--h3-font-family);
+  font-weight: var(--h3-weight);
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+  letter-spacing: var(--h3-letter-spacing);
+}
+
+figcaption {
+  font-family: var(--caption-font-family);
+  font-weight: var(--caption-weight);
+  font-size: var(--caption-size);
+  line-height: var(--caption-line-height);
+  letter-spacing: var(--caption-letter-spacing);
+}
+
+p {
+  max-width: 70ch;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+button {
+  background-color: var(--color-accent);
+  color: var(--color-on-primary);
+  border: none;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  cursor: pointer;
+}

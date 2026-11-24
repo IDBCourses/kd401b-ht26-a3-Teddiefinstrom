@@ -6,8 +6,15 @@
     <title>Portfolio: [Insert Name Here]</title>
     <script src="script.js" type="module"></script>
     <!-- Optional: Link to a CSS file if desired -->
-    <link rel="stylesheet" href="dark.css" />
+    <link rel="stylesheet" href="style.css" />
     <link id="theme" rel="stylesheet" href="light.css" />
+    <link id="fonts" rel="stylesheet" href="font.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -24,13 +31,25 @@
 
     <button id="toggle-theme">Change me</button>
 
+    <button id="toggle-reading" type="button">Change Text</button>
+
     <main>
+      <blockquote>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          natus?
+        </p>
+      </blockquote>
       <!-- Blog Post 1 -->
       <article>
         <h2>Title of the First Blog Post</h2>
         <p>
           <time datetime="2025-11-11">November 11, 2025</time> by Author Name
         </p>
+        <figure>
+          <img src="https://placehold.co/600x400" alt="Placeholder image" />
+          <figcaption>Placeholder image.</figcaption>
+        </figure>
         <section>
           <h3>Introduction</h3>
           <p>

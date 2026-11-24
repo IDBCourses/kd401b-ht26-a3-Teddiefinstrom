@@ -18,3 +18,5 @@ toggleReadingBtn.addEventListener("click", () => {
     fontToggle.href = "font.css";
   }
 });
+
+console.log("test");

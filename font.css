@@ -24,6 +24,7 @@
   --body-size: 1.25rem;
   --body-line-height: 1.5;
   --body-letter-spacing: 0em;
+  --body-max-width: 75ch;
 
   --caption-font-family: var(--font-family);
   --caption-weight: 400;

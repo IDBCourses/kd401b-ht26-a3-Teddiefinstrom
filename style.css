@@ -42,7 +42,8 @@ figcaption {
 }
 
 p {
-  max-width: 70ch;
+    max-width: var(--body-max-width);
+
 }
 
 a {
